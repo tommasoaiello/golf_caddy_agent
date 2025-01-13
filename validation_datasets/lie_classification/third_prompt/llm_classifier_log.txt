@@ -1,0 +1,204 @@
+User Message: The ball is resting below my feet, and I’m worried it might slice when I hit it.
+LLM Output: `BALL BELOW FEET`, `DOWNHILL LIE`
+--------------------
+User Message: I’m standing on a steep hill, and the ball is well above my feet. What adjustments should I make?
+LLM Output: `BALL ABOVE FEET`, `UPHILL LIE`
+--------------------
+User Message: The ball is lying in thick grass, and it’s an uphill shot toward the green.
+LLM Output: `BALL IN ROUGH`, `UPHILL LIE`
+--------------------
+User Message: My ball is in the sand right next to the green, and I need a soft shot to get it close.
+LLM Output: `GREEN SIDE BUNKER SHOT`, `BALL ABOVE FEET`
+--------------------
+User Message: It’s a downhill shot, and the ball is sitting in the rough. The flag is on the lower side of the slope.
+LLM Output: `BALL IN ROUGH`, `DOWNHILL LIE`
+--------------------
+User Message: I’m in a bunker far from the green, and I need to hit a long iron to get out.
+LLM Output: `FAIRWAY BUNKER`, `DOWNHILL LIE`
+--------------------
+User Message: The ball is above my feet, and it’s a tough shot because of the slope I’m standing on.
+LLM Output: `BALL ABOVE FEET`, `DOWNHILL LIE`
+--------------------
+User Message: I’ve got a really steep uphill slope for this shot, and I’m worried about the loft on my club.
+LLM Output: `UPHILL LIE`, `BALL IN ROUGH`
+--------------------
+User Message: I’m trying to get out of the deep rough, but the ball is also a bit below my feet. It’s a tricky lie.
+LLM Output: `BALL IN ROUGH`, `BALL BELOW FEET`
+--------------------
+User Message: The ball is lying in the fairway bunker, but it’s flat and not too deep.
+LLM Output: `FAIRWAY BUNKER`, `BALL ABOVE FEET`
+--------------------
+User Message: The ball is in the rough on a steep uphill slope, but my stance is such that the ball feels slightly below my feet.
+LLM Output: `BALL IN ROUGH`, `UPHILL LIE`, `BALL BELOW FEET`
+--------------------
+User Message: I’m in a greenside bunker, but the sand is sloping downhill toward the flag, making it hard to control the roll.
+LLM Output: `GREEN SIDE BUNKER SHOT`, `DOWNHILL LIE`
+--------------------
+User Message: The ball is in the fairway bunker, and my stance is awkward because it’s above my feet. It’s a long shot to the green.
+LLM Output: `FAIRWAY BUNKER`, `BALL ABOVE FEET`
+--------------------
+User Message: The ball is in the thick rough on a steep downslope near the bunker. It’s tricky because it also feels like it’s below my feet.
+LLM Output: `BALL IN ROUGH`, `DOWNHILL LIE`, `BALL BELOW FEET`
+--------------------
+User Message: I’m standing on a steep incline, and the ball is way above my feet in the rough. It’s hard to figure out the right angle.
+LLM Output: `BALL ABOVE FEET`, `BALL IN ROUGH`, `UPHILL LIE`
+--------------------
+User Message: The ball is in a fairway bunker, and the lip is high, but the slope inside the bunker is downhill, making my stance tricky.
+LLM Output: `FAIRWAY BUNKER`, `DOWNHILL LIE`
+--------------------
+User Message: I’m in the greenside bunker, but the ball is sitting in thick rough at the edge of the sand trap on an uphill slope.
+LLM Output: `GREEN SIDE BUNKER SHOT`, `BALL IN ROUGH`, `UPHILL LIE`
+--------------------
+User Message: The ball is resting in the fairway bunker, but my stance feels awkward because it’s slightly below my feet and on a slope leading uphill.
+LLM Output: `FAIRWAY BUNKER`, `BALL BELOW FEET`, `UPHILL LIE`
+--------------------
+User Message: The ball is in the thick rough near the green, but the ground slopes downhill toward the flag, making it a tricky chip.
+LLM Output: `BALL IN ROUGH`, `DOWNHILL LIE`
+--------------------
+User Message: I’m on a steep hill where the ball is above my feet, but my follow-through is tricky because the shot is out of the rough and the lie feels uneven.
+LLM Output: `BALL ABOVE FEET`, `BALL IN ROUGH`, `UPHILL LIE`
+--------------------
+User Message: The ball is lying in a greenside bunker, and I need to hit it high to clear the lip.
+LLM Output: `GREEN SIDE BUNKER SHOT`, `BALL ABOVE FEET`
+--------------------
+User Message: It’s a downhill lie, and the ball is sitting in thick rough near the green.
+LLM Output: `DOWNHILL LIE`, `BALL IN ROUGH`
+--------------------
+User Message: I’m standing on a slope where the ball is above my feet, and it’s also in the rough.
+LLM Output: `BALL ABOVE FEET`, `BALL IN ROUGH`
+--------------------
+User Message: The ball is sitting in a fairway bunker, and I need to hit a 7-iron to get it to the green.
+LLM Output: `FAIRWAY BUNKER`, `BALL ABOVE FEET`
+--------------------
+User Message: It’s an uphill lie, and I’m trying to reach the green with a 5-iron.
+LLM Output: `UPHILL LIE`, `BALL IN ROUGH`
+--------------------
+User Message: I’ve got a tough shot because the ball is below my feet and also in a greenside bunker.
+LLM Output: `BALL BELOW FEET`, `GREEN SIDE BUNKER SHOT`
+--------------------
+User Message: The ball is way above my feet, and it’s on a steep hill leading up to the green.
+LLM Output: `BALL ABOVE FEET`, `UPHILL LIE`
+--------------------
+User Message: I’m trying to hit out of the thick rough, and the ball is sitting on a downhill slope.
+LLM Output: `BALL IN ROUGH`, `DOWNHILL LIE`
+--------------------
+User Message: The ball is in a fairway bunker, and it’s a flat lie. I’ve got plenty of green to work with.
+LLM Output: `FAIRWAY BUNKER`, `BALL IN ROUGH`
+--------------------
+User Message: The ball is sitting in the rough near the green on an uphill slope. It’s a tough pitch shot.
+LLM Output: `BALL IN ROUGH`, `UPHILL LIE`, `DOWNHILL LIE`
+--------------------
+User Message: The ball is resting below my feet, and I’m worried it might slice when I hit it.
+LLM Output: `BALL BELOW FEET`, `DOWNHILL LIE`
+--------------------
+User Message: I’m standing on a steep hill, and the ball is well above my feet. What adjustments should I make?
+LLM Output: `BALL ABOVE FEET`, `UPHILL LIE`
+--------------------
+User Message: The ball is lying in thick grass, and it’s an uphill shot toward the green.
+LLM Output: `BALL IN ROUGH`, `UPHILL LIE`
+--------------------
+User Message: My ball is in the sand right next to the green, and I need a soft shot to get it close.
+LLM Output: `GREEN SIDE BUNKER SHOT`, `BALL ABOVE FEET`
+--------------------
+User Message: It’s a downhill shot, and the ball is sitting in the rough. The flag is on the lower side of the slope.
+LLM Output: `BALL IN ROUGH`, `DOWNHILL LIE`
+--------------------
+User Message: I’m in a bunker far from the green, and I need to hit a long iron to get out.
+LLM Output: `FAIRWAY BUNKER`, `DOWNHILL LIE`
+--------------------
+User Message: The ball is above my feet, and it’s a tough shot because of the slope I’m standing on.
+LLM Output: `BALL ABOVE FEET`, `DOWNHILL LIE`
+--------------------
+User Message: I’ve got a really steep uphill slope for this shot, and I’m worried about the loft on my club.
+LLM Output: `UPHILL LIE`, `BALL IN ROUGH`
+--------------------
+User Message: I’m trying to get out of the deep rough, but the ball is also a bit below my feet. It’s a tricky lie.
+LLM Output: `BALL IN ROUGH`, `BALL BELOW FEET`
+--------------------
+User Message: The ball is lying in the fairway bunker, but it’s flat and not too deep.
+LLM Output: `FAIRWAY BUNKER`, `BALL ABOVE FEET`
+--------------------
+User Message: The ball is sitting in thick rough near the edge of the green.
+LLM Output: `BALL IN ROUGH`, `GREEN SIDE BUNKER SHOT`
+--------------------
+User Message: It’s an uphill lie, and I’m preparing to hit a wedge shot.
+LLM Output: `UPHILL LIE`, `BALL IN ROUGH`
+--------------------
+User Message: The ball is sitting cleanly in the fairway bunker, and I’ve got plenty of space to hit out.
+LLM Output: `FAIRWAY BUNKER`, `BALL ABOVE FEET`
+--------------------
+User Message: I’m in the greenside bunker, and the ball is sitting on level sand close to the pin.
+LLM Output: `GREEN SIDE BUNKER SHOT`, `BALL ABOVE FEET`
+--------------------
+User Message: I’m on a downhill slope, and the ball is rolling toward the rough before I hit.
+LLM Output: DOWNHILL LIE
+--------------------
+User Message: The ball is above my feet, and it’s a mid-range shot from the fairway.
+LLM Output: `BALL ABOVE FEET`, `FAIRWAY`
+--------------------
+User Message: It’s an uphill shot, and the ball is sitting perfectly on the slope.
+LLM Output: `BALL IN ROUGH`, `UPHILL LIE`
+--------------------
+User Message: I’m preparing to hit a bunker shot from a flat surface near the green.
+LLM Output: `GREEN SIDE BUNKER SHOT`, `BALL ABOVE FEET`
+--------------------
+User Message: The ball is below my feet on a downhill slope near the fairway.
+LLM Output: `BALL BELOW FEET`, `DOWNHILL LIE`, `FAIRWAY`
+--------------------
+User Message: I’m hitting out of a greenside bunker, and it’s a clear, flat lie with minimal sand resistance.
+LLM Output: `GREEN SIDE BUNKER SHOT`, `BALL ABOVE FEET`
+--------------------
+User Message: I’m in the rough on flat ground, preparing to hit a high lob shot to the green.
+LLM Output: `BALL IN ROUGH`, `FLAT LIE`
+--------------------
+User Message: The ball is below my feet on a perfectly flat fairway.
+LLM Output: `BALL BELOW FEET`, `FAIRWAY`
+--------------------
+User Message: The ball is above my feet and sitting cleanly on the slope.
+LLM Output: `BALL ABOVE FEET`, `DOWNHILL LIE`
+--------------------
+User Message: It’s a downhill shot, and the ball is rolling slightly on the slope.
+LLM Output: `DOWNHILL LIE`, `BALL IN ROUGH`
+--------------------
+User Message: I’ve got a fairway bunker shot with a slight upslope to the green.
+LLM Output: `FAIRWAY BUNKER`, `UPHILL LIE`
+--------------------
+User Message: The ball is resting in thick rough right off the green.
+LLM Output: `BALL IN ROUGH`, `GREEN SIDE BUNKER SHOT`
+--------------------
+User Message: I’m preparing to hit out of the greenside bunker with a clear shot to the flag.
+LLM Output: `GREEN SIDE BUNKER SHOT`, `BALL ABOVE FEET`
+--------------------
+User Message: It’s a steep downhill slope, and the ball is sitting at the very edge of the fairway.
+LLM Output: `DOWNHILL LIE`, `BALL ABOVE FEET`, `FAIRWAY BUNKER`
+--------------------
+User Message: The ball is slightly above my feet on a level area of the fairway.
+LLM Output: `BALL ABOVE FEET`, `FAIRWAY`
+--------------------
+User Message: The ball is lying on a flat area of thick rough near the green.
+LLM Output: `BALL IN ROUGH`, `GREEN SIDE BUNKER SHOT`
+--------------------
+User Message: I’m in the greenside bunker, and the sand is perfectly flat for this chip shot.
+LLM Output: `GREEN SIDE BUNKER SHOT`, `BALL ABOVE FEET`
+--------------------
+User Message: The ball is below my feet, but the surface is level and not too tricky.
+LLM Output: `BALL BELOW FEET`, `DOWNHILL LIE`
+--------------------
+User Message: The ball is above my feet, and I’m hitting from a flat area of the slope.
+LLM Output: `BALL ABOVE FEET`, `DOWNHILL LIE`
+--------------------
+User Message: The ball is on a downhill slope, and the grass is short near the green.
+LLM Output: `DOWNHILL LIE`, `BALL IN ROUGH`
+--------------------
+User Message: I’m hitting out of the fairway bunker, and the ball is sitting cleanly on a flat surface.
+LLM Output: `FAIRWAY BUNKER`, `BALL ABOVE FEET`
+--------------------
+User Message: The ball is sitting in the rough, and it’s lying cleanly on flat ground.
+LLM Output: `BALL IN ROUGH`, `DOWNHILL LIE`
+--------------------
+User Message: The ball is in the greenside bunker, and it’s sitting in fluffy sand close to the flag.
+LLM Output: `GREEN SIDE BUNKER SHOT`, `BALL ABOVE FEET`
+--------------------
+User Message: The ball is slightly below my feet, and the surface is a bit uneven but manageable.
+LLM Output: `BALL BELOW FEET`, `DOWNHILL LIE`
+--------------------
