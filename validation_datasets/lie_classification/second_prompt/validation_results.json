@@ -1,0 +1,735 @@
+[
+    {
+        "User Message": "The ball is resting below my feet, and I\u2019m worried it might slice when I hit it.",
+        "Expected Output": [
+            "BALL BELOW FEET"
+        ],
+        "Classifier Result": [
+            "BALL BELOW FEET"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019m standing on a steep hill, and the ball is well above my feet. What adjustments should I make?",
+        "Expected Output": [
+            "BALL ABOVE FEET"
+        ],
+        "Classifier Result": [
+            "BALL ABOVE FEET"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is lying in thick grass, and it\u2019s an uphill shot toward the green.",
+        "Expected Output": [
+            "BALL IN ROUGH",
+            "UPHILL LIE"
+        ],
+        "Classifier Result": [
+            "UPHILL LIE",
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "My ball is in the sand right next to the green, and I need a soft shot to get it close.",
+        "Expected Output": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Classifier Result": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "It\u2019s a downhill shot, and the ball is sitting in the rough. The flag is on the lower side of the slope.",
+        "Expected Output": [
+            "DOWNHILL LIE",
+            "BALL IN ROUGH"
+        ],
+        "Classifier Result": [
+            "DOWNHILL LIE",
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019m in a bunker far from the green, and I need to hit a long iron to get out.",
+        "Expected Output": [
+            "FAIRWAY BUNKER"
+        ],
+        "Classifier Result": [
+            "FAIRWAY BUNKER"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is above my feet, and it\u2019s a tough shot because of the slope I\u2019m standing on.",
+        "Expected Output": [
+            "BALL ABOVE FEET"
+        ],
+        "Classifier Result": [
+            "BALL ABOVE FEET"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019ve got a really steep uphill slope for this shot, and I\u2019m worried about the loft on my club.",
+        "Expected Output": [
+            "UPHILL LIE"
+        ],
+        "Classifier Result": [
+            "UPHILL LIE"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019m trying to get out of the deep rough, but the ball is also a bit below my feet. It\u2019s a tricky lie.",
+        "Expected Output": [
+            "BALL IN ROUGH",
+            "BALL BELOW FEET"
+        ],
+        "Classifier Result": [
+            "BALL BELOW FEET",
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is lying in the fairway bunker, but it\u2019s flat and not too deep.",
+        "Expected Output": [
+            "FAIRWAY BUNKER"
+        ],
+        "Classifier Result": [
+            "FAIRWAY BUNKER"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is in the rough on a steep uphill slope, but my stance is such that the ball feels slightly below my feet.",
+        "Expected Output": [
+            "BALL IN ROUGH",
+            "UPHILL LIE",
+            "BALL BELOW FEET"
+        ],
+        "Classifier Result": [
+            "BALL BELOW FEET",
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 0.6666666666666666
+    },
+    {
+        "User Message": "I\u2019m in a greenside bunker, but the sand is sloping downhill toward the flag, making it hard to control the roll.",
+        "Expected Output": [
+            "GREEN SIDE BUNKER SHOT",
+            "DOWNHILL LIE"
+        ],
+        "Classifier Result": [
+            "GREEN SIDE BUNKER SHOT",
+            "DOWNHILL LIE"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is in the fairway bunker, and my stance is awkward because it\u2019s above my feet. It\u2019s a long shot to the green.",
+        "Expected Output": [
+            "FAIRWAY BUNKER",
+            "BALL ABOVE FEET"
+        ],
+        "Classifier Result": [
+            "BALL ABOVE FEET",
+            "FAIRWAY BUNKER"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is in the thick rough on a steep downslope near the bunker. It\u2019s tricky because it also feels like it\u2019s below my feet.",
+        "Expected Output": [
+            "BALL IN ROUGH",
+            "DOWNHILL LIE",
+            "BALL BELOW FEET"
+        ],
+        "Classifier Result": [
+            "BALL BELOW FEET",
+            "DOWNHILL LIE",
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019m standing on a steep incline, and the ball is way above my feet in the rough. It\u2019s hard to figure out the right angle.",
+        "Expected Output": [
+            "BALL ABOVE FEET",
+            "BALL IN ROUGH",
+            "UPHILL LIE"
+        ],
+        "Classifier Result": [
+            "BALL ABOVE FEET",
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 0.6666666666666666
+    },
+    {
+        "User Message": "The ball is in a fairway bunker, and the lip is high, but the slope inside the bunker is downhill, making my stance tricky.",
+        "Expected Output": [
+            "FAIRWAY BUNKER",
+            "DOWNHILL LIE"
+        ],
+        "Classifier Result": [
+            "DOWNHILL LIE",
+            "FAIRWAY BUNKER"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019m in the greenside bunker, but the ball is sitting in thick rough at the edge of the sand trap on an uphill slope.",
+        "Expected Output": [
+            "GREEN SIDE BUNKER SHOT",
+            "BALL IN ROUGH",
+            "UPHILL LIE"
+        ],
+        "Classifier Result": [
+            "GREEN SIDE BUNKER SHOT",
+            "UPHILL LIE",
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is resting in the fairway bunker, but my stance feels awkward because it\u2019s slightly below my feet and on a slope leading uphill.",
+        "Expected Output": [
+            "FAIRWAY BUNKER",
+            "BALL BELOW FEET",
+            "UPHILL LIE"
+        ],
+        "Classifier Result": [
+            "BALL BELOW FEET",
+            "UPHILL LIE",
+            "FAIRWAY BUNKER"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is in the thick rough near the green, but the ground slopes downhill toward the flag, making it a tricky chip.",
+        "Expected Output": [
+            "BALL IN ROUGH",
+            "DOWNHILL LIE"
+        ],
+        "Classifier Result": [
+            "DOWNHILL LIE",
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019m on a steep hill where the ball is above my feet, but my follow-through is tricky because the shot is out of the rough and the lie feels uneven.",
+        "Expected Output": [
+            "BALL ABOVE FEET",
+            "BALL IN ROUGH",
+            "UPHILL LIE"
+        ],
+        "Classifier Result": [
+            "BALL ABOVE FEET"
+        ],
+        "Correctness": 0.3333333333333333
+    },
+    {
+        "User Message": "The ball is lying in a greenside bunker, and I need to hit it high to clear the lip.",
+        "Expected Output": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Classifier Result": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "It\u2019s a downhill lie, and the ball is sitting in thick rough near the green.",
+        "Expected Output": [
+            "DOWNHILL LIE",
+            "BALL IN ROUGH"
+        ],
+        "Classifier Result": [
+            "DOWNHILL LIE",
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019m standing on a slope where the ball is above my feet, and it\u2019s also in the rough.",
+        "Expected Output": [
+            "BALL ABOVE FEET",
+            "BALL IN ROUGH"
+        ],
+        "Classifier Result": [
+            "BALL ABOVE FEET",
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is sitting in a fairway bunker, and I need to hit a 7-iron to get it to the green.",
+        "Expected Output": [
+            "FAIRWAY BUNKER"
+        ],
+        "Classifier Result": [
+            "FAIRWAY BUNKER"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "It\u2019s an uphill lie, and I\u2019m trying to reach the green with a 5-iron.",
+        "Expected Output": [
+            "UPHILL LIE"
+        ],
+        "Classifier Result": [
+            "UPHILL LIE"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019ve got a tough shot because the ball is below my feet and also in a greenside bunker.",
+        "Expected Output": [
+            "BALL BELOW FEET",
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Classifier Result": [
+            "BALL BELOW FEET",
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is way above my feet, and it\u2019s on a steep hill leading up to the green.",
+        "Expected Output": [
+            "BALL ABOVE FEET",
+            "UPHILL LIE"
+        ],
+        "Classifier Result": [
+            "BALL ABOVE FEET",
+            "DOWNHILL LIE"
+        ],
+        "Correctness": 0.3333333333333333
+    },
+    {
+        "User Message": "I\u2019m trying to hit out of the thick rough, and the ball is sitting on a downhill slope.",
+        "Expected Output": [
+            "BALL IN ROUGH",
+            "DOWNHILL LIE"
+        ],
+        "Classifier Result": [
+            "DOWNHILL LIE",
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is in a fairway bunker, and it\u2019s a flat lie. I\u2019ve got plenty of green to work with.",
+        "Expected Output": [
+            "FAIRWAY BUNKER"
+        ],
+        "Classifier Result": [
+            "FAIRWAY BUNKER"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is sitting in the rough near the green on an uphill slope. It\u2019s a tough pitch shot.",
+        "Expected Output": [
+            "BALL IN ROUGH",
+            "UPHILL LIE"
+        ],
+        "Classifier Result": [
+            "UPHILL LIE",
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is resting below my feet, and I\u2019m worried it might slice when I hit it.",
+        "Expected Output": [
+            "BALL BELOW FEET"
+        ],
+        "Classifier Result": [
+            "BALL BELOW FEET"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019m standing on a steep hill, and the ball is well above my feet. What adjustments should I make?",
+        "Expected Output": [
+            "BALL ABOVE FEET"
+        ],
+        "Classifier Result": [
+            "BALL ABOVE FEET"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is lying in thick grass, and it\u2019s an uphill shot toward the green.",
+        "Expected Output": [
+            "UPHILL LIE"
+        ],
+        "Classifier Result": [
+            "UPHILL LIE",
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 0.5
+    },
+    {
+        "User Message": "My ball is in the sand right next to the green, and I need a soft shot to get it close.",
+        "Expected Output": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Classifier Result": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "It\u2019s a downhill shot, and the ball is sitting in the rough. The flag is on the lower side of the slope.",
+        "Expected Output": [
+            "DOWNHILL LIE"
+        ],
+        "Classifier Result": [
+            "DOWNHILL LIE",
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 0.5
+    },
+    {
+        "User Message": "I\u2019m in a bunker far from the green, and I need to hit a long iron to get out.",
+        "Expected Output": [
+            "FAIRWAY BUNKER"
+        ],
+        "Classifier Result": [
+            "FAIRWAY BUNKER"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is above my feet, and it\u2019s a tough shot because of the slope I\u2019m standing on.",
+        "Expected Output": [
+            "BALL ABOVE FEET"
+        ],
+        "Classifier Result": [
+            "BALL ABOVE FEET"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019ve got a really steep uphill slope for this shot, and I\u2019m worried about the loft on my club.",
+        "Expected Output": [
+            "UPHILL LIE"
+        ],
+        "Classifier Result": [
+            "UPHILL LIE"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019m trying to get out of the deep rough, but the ball is also a bit below my feet. It\u2019s a tricky lie.",
+        "Expected Output": [
+            "BALL IN ROUGH",
+            "BALL BELOW FEET"
+        ],
+        "Classifier Result": [
+            "BALL BELOW FEET",
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is lying in the fairway bunker, but it\u2019s flat and not too deep.",
+        "Expected Output": [
+            "FAIRWAY BUNKER"
+        ],
+        "Classifier Result": [
+            "FAIRWAY BUNKER"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is sitting in thick rough near the edge of the green.",
+        "Expected Output": [
+            "BALL IN ROUGH"
+        ],
+        "Classifier Result": [
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "It\u2019s an uphill lie, and I\u2019m preparing to hit a wedge shot.",
+        "Expected Output": [
+            "UPHILL LIE"
+        ],
+        "Classifier Result": [
+            "UPHILL LIE"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is sitting cleanly in the fairway bunker, and I\u2019ve got plenty of space to hit out.",
+        "Expected Output": [
+            "FAIRWAY BUNKER"
+        ],
+        "Classifier Result": [
+            "FAIRWAY BUNKER"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019m in the greenside bunker, and the ball is sitting on level sand close to the pin.",
+        "Expected Output": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Classifier Result": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019m on a downhill slope, and the ball is rolling toward the rough before I hit.",
+        "Expected Output": [
+            "DOWNHILL LIE"
+        ],
+        "Classifier Result": [
+            "DOWNHILL LIE",
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 0.5
+    },
+    {
+        "User Message": "The ball is above my feet, and it\u2019s a mid-range shot from the fairway.",
+        "Expected Output": [
+            "BALL ABOVE FEET"
+        ],
+        "Classifier Result": [
+            "BALL ABOVE FEET"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "It\u2019s an uphill shot, and the ball is sitting perfectly on the slope.",
+        "Expected Output": [
+            "UPHILL LIE"
+        ],
+        "Classifier Result": [
+            "UPHILL LIE"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019m preparing to hit a bunker shot from a flat surface near the green.",
+        "Expected Output": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Classifier Result": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is below my feet on a downhill slope near the fairway.",
+        "Expected Output": [
+            "BALL BELOW FEET"
+        ],
+        "Classifier Result": [
+            "BALL BELOW FEET",
+            "DOWNHILL LIE"
+        ],
+        "Correctness": 0.5
+    },
+    {
+        "User Message": "I\u2019m hitting out of a greenside bunker, and it\u2019s a clear, flat lie with minimal sand resistance.",
+        "Expected Output": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Classifier Result": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019m in the rough on flat ground, preparing to hit a high lob shot to the green.",
+        "Expected Output": [
+            "BALL IN ROUGH"
+        ],
+        "Classifier Result": [
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is below my feet on a perfectly flat fairway.",
+        "Expected Output": [
+            "BALL BELOW FEET"
+        ],
+        "Classifier Result": [
+            "BALL BELOW FEET"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is above my feet and sitting cleanly on the slope.",
+        "Expected Output": [
+            "BALL ABOVE FEET"
+        ],
+        "Classifier Result": [
+            "BALL ABOVE FEET"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "It\u2019s a downhill shot, and the ball is rolling slightly on the slope.",
+        "Expected Output": [
+            "DOWNHILL LIE"
+        ],
+        "Classifier Result": [
+            "DOWNHILL LIE"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019ve got a fairway bunker shot with a slight upslope to the green.",
+        "Expected Output": [
+            "FAIRWAY BUNKER"
+        ],
+        "Classifier Result": [
+            "FAIRWAY BUNKER"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is resting in thick rough right off the green.",
+        "Expected Output": [
+            "BALL IN ROUGH"
+        ],
+        "Classifier Result": [
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019m preparing to hit out of the greenside bunker with a clear shot to the flag.",
+        "Expected Output": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Classifier Result": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "It\u2019s a steep downhill slope, and the ball is sitting at the very edge of the fairway.",
+        "Expected Output": [
+            "DOWNHILL LIE"
+        ],
+        "Classifier Result": [
+            "BALL ABOVE FEET",
+            "DOWNHILL LIE"
+        ],
+        "Correctness": 0.5
+    },
+    {
+        "User Message": "The ball is slightly above my feet on a level area of the fairway.",
+        "Expected Output": [
+            "BALL ABOVE FEET"
+        ],
+        "Classifier Result": [
+            "BALL ABOVE FEET"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is lying on a flat area of thick rough near the green.",
+        "Expected Output": [
+            "BALL IN ROUGH"
+        ],
+        "Classifier Result": [
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019m in the greenside bunker, and the sand is perfectly flat for this chip shot.",
+        "Expected Output": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Classifier Result": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is below my feet, but the surface is level and not too tricky.",
+        "Expected Output": [
+            "BALL BELOW FEET"
+        ],
+        "Classifier Result": [
+            "BALL BELOW FEET"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is above my feet, and I\u2019m hitting from a flat area of the slope.",
+        "Expected Output": [
+            "BALL ABOVE FEET"
+        ],
+        "Classifier Result": [
+            "BALL ABOVE FEET"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is on a downhill slope, and the grass is short near the green.",
+        "Expected Output": [
+            "DOWNHILL LIE"
+        ],
+        "Classifier Result": [
+            "DOWNHILL LIE"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "I\u2019m hitting out of the fairway bunker, and the ball is sitting cleanly on a flat surface.",
+        "Expected Output": [
+            "FAIRWAY BUNKER"
+        ],
+        "Classifier Result": [
+            "FAIRWAY BUNKER"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is sitting in the rough, and it\u2019s lying cleanly on flat ground.",
+        "Expected Output": [
+            "BALL IN ROUGH"
+        ],
+        "Classifier Result": [
+            "BALL IN ROUGH"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is in the greenside bunker, and it\u2019s sitting in fluffy sand close to the flag.",
+        "Expected Output": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Classifier Result": [
+            "GREEN SIDE BUNKER SHOT"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "User Message": "The ball is slightly below my feet, and the surface is a bit uneven but manageable.",
+        "Expected Output": [
+            "BALL BELOW FEET"
+        ],
+        "Classifier Result": [
+            "BALL BELOW FEET"
+        ],
+        "Correctness": 1.0
+    }
+]
