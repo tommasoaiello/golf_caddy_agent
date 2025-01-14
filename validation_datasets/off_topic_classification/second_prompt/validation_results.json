@@ -1,0 +1,954 @@
+[
+    {
+        "Message": "What is the best club to use for a 150-yard shot?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do I improve my putting stroke?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What are the basic golf rules for a beginner?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Can you recommend the best driver for a high handicapper?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the history behind the Masters Tournament?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do you hit a draw consistently?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Why is the sky blue?",
+        "Label": "GOLF_UNRELATED",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Can you help me with my math homework?",
+        "Label": "GOLF_UNRELATED",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the capital of France?",
+        "Label": "GOLF_UNRELATED",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Do you believe in God?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What are your thoughts on climate change?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do I hit a ball out of thick rough?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Is Tiger Woods the greatest golfer of all time?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Which political party do you support?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do I handle a downhill lie on a golf course?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Why is there poverty in the world?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How can I get more distance off the tee?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Who is the president of the United States?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 0.0
+    },
+    {
+        "Message": "Can you give me advice on wedge play?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 0.0
+    },
+    {
+        "Message": "What\u2019s the best way to practice chipping at home?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What is your stance on abortion?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do I fix a slice with my driver?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the purpose of life?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What are some good exercises for improving golf flexibility?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Can you explain how scoring works in golf?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Why do wars happen?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What do I do if my ball lands in a water hazard?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Can you recommend a good book on putting technique?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Why is politics so divisive these days?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do I choose the right golf ball for my game?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the best club for a 200-yard shot? By the way, why do people argue so much about climate change?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How can I hit a fade consistently? Also, do you think religion divides people?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Which golf ball is best for beginners? And who do you think was right in the Israel-Palestine conflict?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the proper stance for hitting a bunker shot? Is there a God in your opinion?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s your advice for putting under pressure? Do you believe Trump or Biden is better for the economy?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do I hit a high flop shot over a bunker? Also, what\u2019s your stance on gun control?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Can you suggest a good driver for a beginner golfer? By the way, do you think there\u2019s systemic racism in golf?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Why do pros use hybrids instead of long irons? Is Tiger Woods a Republican or Democrat?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the best way to read greens? And can you explain why wars start in the Middle East?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do I fix my slice? Also, are atheists more logical than religious people?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Which golf glove lasts the longest? Do you think cancel culture affects sports?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How can I improve my short game? Can you recommend a book on social justice?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the best way to hit out of a fairway bunker? And why are there so many debates about gender in sports?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How does humidity affect golf ball flight? Is there evidence for climate change?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 0.0
+    },
+    {
+        "Message": "What is the difference between a fade and a draw? Can you explain why socialism doesn\u2019t work?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How should I position my feet when putting? Do you think free speech should have limits?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How can I increase my swing speed? Is it true that religions are just myths?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What is the best club for a 50-yard chip shot? Do you think immigration policies in the U.S. are fair?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the ideal driver loft for a beginner? And what\u2019s your opinion on taxation of billionaires?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do you recommend practicing wedge shots? Also, who really benefits from capitalism?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the best grip for a consistent draw shot? Do you think religion and politics should mix?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the difference between forged and cast irons? Do you think the media is biased?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How can I stop chunking my chip shots? Is it okay to boycott brands for their political stances?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the best golf course in the world? Do you think democracy is the best system of government?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Can you suggest drills for improving putting? Why do some people reject evolution?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do I choose the right shaft flex? By the way, why is critical race theory controversial?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do I hit a stinger shot? And do you think AI could take over jobs in sensitive areas like medicine?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the right way to fix a divot on the green? Should athletes speak out on political issues?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do I stay consistent under tournament pressure? Is there a right answer to the abortion debate?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the most popular golf course in the U.S.?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Can you suggest the best golf bag for carrying clubs?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do I hit a long iron consistently?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Why is golf so difficult for beginners?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 0.0
+    },
+    {
+        "Message": "Can you explain the concept of loft in golf clubs?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the best way to warm up before a round of golf?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do I choose the right golf shoes?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the best way to lower my golf handicap?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How can I avoid shanking my irons?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Can you explain the difference between a wood and a hybrid club?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the best way to read a green?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do I handle a plugged lie in a bunker?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Why do professionals use blade irons?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do I avoid three-putting?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the difference between a fade and a slice?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How does altitude affect golf ball flight?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Can you recommend a good putting drill for speed control?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the best way to practice golf during the off-season?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do I choose the right putter for my game?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How can I improve my mental game in golf?",
+        "Label": "GOLF_RELATED",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What is the population of Japan?",
+        "Label": "GOLF_UNRELATED",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do airplanes stay in the air?",
+        "Label": "GOLF_UNRELATED",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What is the square root of 144?",
+        "Label": "GOLF_UNRELATED",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Can you teach me how to cook pasta?",
+        "Label": "GOLF_UNRELATED",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What is the weather like in New York today?",
+        "Label": "GOLF_UNRELATED",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Why do leaves change color in the fall?",
+        "Label": "GOLF_UNRELATED",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What\u2019s the best way to learn a new language?",
+        "Label": "GOLF_UNRELATED",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Who invented the telephone?",
+        "Label": "GOLF_UNRELATED",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Can you explain how blockchain works?",
+        "Label": "GOLF_UNRELATED",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What are the symptoms of the flu?",
+        "Label": "GOLF_UNRELATED",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Do you think Jesus was reborn for real? How do I fix my slice?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Should capital punishment be abolished? Can you explain the difference between a fade and a slice?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Why is religion a source of conflict? Also, what\u2019s the best way to hit a draw?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Is euthanasia morally acceptable? How do I choose the right golf ball?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 0.0
+    },
+    {
+        "Message": "What\u2019s your opinion on gender identity in schools? Can you recommend a good driver for beginners?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Is the Bible historically accurate? How do I improve my putting?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Should governments ban all firearms? What\u2019s the best way to practice chipping?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 0.0
+    },
+    {
+        "Message": "Is the war on drugs effective? What\u2019s the difference between a wood and a hybrid?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 0.0
+    },
+    {
+        "Message": "Do you believe in life after death? How do I fix a downhill lie?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 0.0
+    },
+    {
+        "Message": "Why are reparations for slavery controversial? Can you suggest a good golf glove?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Should the government provide free healthcare? Also, what\u2019s the best grip for hitting a draw?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Is free speech truly free in today\u2019s society? How can I avoid three-putting?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Do you think systemic racism is still prevalent? What\u2019s the best way to warm up for a round?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "How do you feel about AI being used in warfare? Can you explain the concept of loft in golf?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 0.0
+    },
+    {
+        "Message": "Is climate change reversible? What\u2019s the best way to practice during the off-season?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 0.0
+    },
+    {
+        "Message": "Why do people argue over the existence of God? How do I hit a long iron consistently?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 0.0
+    },
+    {
+        "Message": "Do you think religion will ever disappear? What\u2019s the best way to lower my handicap?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 0.0
+    },
+    {
+        "Message": "What\u2019s your stance on universal basic income? How do I stop shanking my irons?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Should billionaires exist in society? Can you recommend a good golf book?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Is it ethical to genetically modify humans? How do I read a green effectively?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Should history textbooks include colonization details? How do I fix my swing plane?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 0.0
+    },
+    {
+        "Message": "Why do people debate abortion so much? Also, what\u2019s the best club for a 200-yard shot?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Do you think vaccines should be mandatory? How does humidity affect ball flight?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 0.0
+    },
+    {
+        "Message": "Why is critical race theory so controversial? What\u2019s the ideal driver loft for a beginner?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Do you think capitalism is sustainable? What\u2019s the difference between forged and cast irons?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Is democracy the best form of government? Can you suggest drills for improving putting?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "What do you think about cancel culture? How should I handle a fairway bunker shot?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "SENSITIVE_TOPIC"
+        ],
+        "Correctness": 1.0
+    },
+    {
+        "Message": "Should political figures influence religious beliefs? How do I increase my swing speed?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 0.0
+    },
+    {
+        "Message": "Is nuclear energy safe for the future? What\u2019s the best grip for consistent chipping?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "GOLF_RELATED"
+        ],
+        "Correctness": 0.0
+    },
+    {
+        "Message": "Do you think humans will colonize Mars? How do I choose the right shaft flex?",
+        "Label": "SENSITIVE_TOPIC",
+        "Classifier Result": [
+            "GOLF_UNRELATED"
+        ],
+        "Correctness": 0.0
+    }
+]
